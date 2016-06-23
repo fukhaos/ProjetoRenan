@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context="com.megaleios.projetorenan.Fragmento">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escreva aqui"
+        android:id="@+id/campo1"
+        android:layout_gravity="center_horizontal|top" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escreva aqui"
+        android:id="@+id/campo2"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escreva aqui"
+        android:id="@+id/campo3"
+        android:layout_gravity="center_horizontal|bottom" />
+
+</FrameLayout>
